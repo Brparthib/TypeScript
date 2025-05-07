@@ -1,5 +1,4 @@
 {
-    
   // destructuring
   const user = {
     id: 123,
@@ -20,4 +19,6 @@
   const myFriends = ["Limon", "Shahin", "Ridoy", "Antor", "Isteak", "Pramit"];
 
   const [, , friends, ...rest] = myFriends;
+  console.log(friends);
+  console.log(rest);
 }
